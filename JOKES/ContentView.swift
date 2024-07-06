@@ -13,6 +13,7 @@ struct ContentView: View {
                  Joke(setup: "Is this pool safe for driving", punchline: "It deep ends"),
                  Joke(setup: "Did you hear about the cheese factory that exploded in france", punchline: "There was nothing left but de Brie"),
                  Joke(setup: "Dad, can you put my shoes on?", punchline: "I dont think they will fit me"),
+                 Joke(setup: "Did you hear about the cheese factory that exploded in france", punchline: "There was nothing left but de Brie"),
                  Joke(setup: "Dad, can you put my shoes on?", punchline: "I dont think they will fit me")]
     @State private var showPunchLine =  false
     @State private var currentJokeIndex = 0
